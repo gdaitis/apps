@@ -1,0 +1,52 @@
+.logo {
+	width: 100%;
+	height: auto;
+	max-width: 150px;
+	margin: 20px 0 10px 0;
+}
+.section {
+	margin-top: 30px;
+}
+.parallax-container {
+    height: 400px;
+}
+.gallery {
+	margin-bottom: 20px;
+}
+.gallery img {
+	width: 100%;
+}
+.carousel-mobile img {
+	height: 100%;
+	max-height: 568px;
+	width: auto;
+	max-width: 320px;
+}
+.slick-slider {
+	margin-bottom: 10px;
+}
+.slick-slide {
+	padding: 10px 10px 10px 10px;
+}
+@media only screen and (max-width : 992px) {
+	.slick-slide {
+		height: 400px;
+	}
+}
+#bio p, #ideas p {
+	font-size: 17px;
+}
+#bio .section {
+	margin-top: 0;
+}
+#bio a:hover, #bio a:active, #bio a:link, #bio a:visited {
+    color: white;
+    font-weight: 400;
+}
+#contact a:hover, #contact a:active, #contact a:link, #contact a:visited {
+    color: white;
+}
+/*nav ul {
+	text-transform: uppercase;
+	font-size: 10px;
+}*/
